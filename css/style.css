@@ -1,14 +1,13 @@
+
 body {
-	background: #FFFFFF;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
 }
 
 .theme-nav{
 	padding-top: 20px;
 	padding-bottom: 20px;
-	background: rgba(255,255,255, 0.5);
-	border-bottom: 0px;
-	box-shadow: 0px 0px 50px 5px rgba(255, 87, 34, 0.3);
+	background: #FFFFFF;
 }
 
 .navbar-default .navbar-brand {
@@ -48,19 +47,72 @@ body {
 	border-color: #2196F3;
 }
 
-.btn-primary:focus, .btn-primary:hover {
-	background-color: #FFFFFF;
-	border-color: #2196F3;
-	color: #2196F3;
+.full-container {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
 }
 
-.btn-warning {
-	background-color: #FF5722;
-	border-color: #FF5722;
+.carousel-caption {
+	bottom: 40%;
+	background: rgba(240, 240, 240, 0.3);
 }
 
-.btn-warning:focus, .btn-warning:hover {
-	background-color: #FFFFFF;
-	border-color: #FF5722;
-	color: #FF5722;
+.carousel-caption>h1, .green-shell h2{
+	font-size: 52px;
+}
+
+.carousel-caption>p{
+	font-size: 32px;
+}
+
+
+.carousel-inner>.item>img{
+	opacity: 0.8;
+}
+
+.shell {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.shell h2 {
+	font-size: 32px;
+	color: #000000;
+}
+
+.shell p {
+	font-size: 18px;
+	color: #000000;
+}
+
+.green-text {
+	color: green;
+}
+
+.green-shell {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-left: 150px;
+	padding-right: 150px;
+	background-color: #5CB85C;
+	color: #FFFFFF;
+}
+
+.green-shell p {
+	font-size: 18px;
+	color: #FFFFFF;
+}
+
+.greeen-shell {
+	shape-outside: circle(50%);
+  width: 300px;
+  height: 300px;
+  float: left;
+}
+
+.shell-icon {
+	color: #5cb85c;
+    font-size: 48px;
+    padding-top: 30px;
 }
